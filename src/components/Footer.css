@@ -4,20 +4,30 @@
 
 .footer-container {
   display: grid;
-  grid-template-columns: 2fr 2fr 3fr;
+  grid-template-columns: 3fr 3fr 3fr;
   align-items: center;
   justify-items: center;
   max-width: 1400px;
   margin: 0 auto;
+  position: relative;
 }
 
 .footer-info {
+  margin-top: 5rem;
   line-height: 1rem;
 }
 
 .footer-info p:nth-of-type(3) {
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.footer-info img {
+  padding-left: 5rem;
+}
+
+.footer-info a {
+  display: block;
 }
 
 .footer-social {
