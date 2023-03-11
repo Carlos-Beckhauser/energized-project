@@ -1,0 +1,43 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 8fr;
+  justify-items: end;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin-left: 10rem;
+  letter-spacing: 6px;
+}
+
+.navbar h1:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+hr {
+  width: 105rem;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+  margin-right: 11rem;
+  gap: 3.5rem;
+  font-size: 1.8rem;
+}
+
+.navbar-menu ul li:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+}
