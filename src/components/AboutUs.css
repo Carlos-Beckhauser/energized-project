@@ -1,0 +1,33 @@
+.aboutContainer {
+  max-width: 1500px;
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  align-items: center;
+}
+
+.aboutContainer p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.aboutContainer p:nth-of-type(2) {
+  font-size: 1.7rem;
+  text-align: justify;
+}
+
+.aboutContainer button {
+  display: block;
+  background-color: unset;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+}
+
+.aboutContainer button:hover {
+  color: var(--color-primary);
+  box-shadow: 10px 10px 8px #888888;
+}

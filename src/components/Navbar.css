@@ -11,17 +11,19 @@
 .navbar-logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
-.navbar h1 {
+.navbar-logo h1 {
   font-size: 2.8rem;
   text-transform: uppercase;
   margin-left: 10rem;
   letter-spacing: 6px;
+  color: var(--color-primary);
 }
 
-.navbar h1:hover {
-  color: var(--color-primary);
+.navbar-logo h1:hover {
+  color: rgb(46, 97, 46);
   cursor: pointer;
 }
 
@@ -29,15 +31,23 @@ hr {
   width: 105rem;
 }
 
-.navbar-menu ul {
+.navbar-menu {
   list-style: none;
   display: flex;
   margin-right: 11rem;
-  gap: 3.5rem;
-  font-size: 1.8rem;
+  gap: 4rem;
+  font-size: 1.9rem;
 }
 
-.navbar-menu ul li:hover {
+.navbar-links {
+  text-decoration: none;
+}
+
+.navbar-menu li {
+  color: black;
+}
+
+.navbar-menu li:hover {
   color: var(--color-primary);
   cursor: pointer;
 }
