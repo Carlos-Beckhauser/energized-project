@@ -1,6 +1,46 @@
 .prod {
   max-width: 1400px;
-  margin: 5rem auto;
+  margin: 8rem auto;
   display: grid;
-  grid-template-columns: 4fr 4fr;
+  grid-template-columns: 4fr 4fr 4fr;
+  justify-items: center;
+  gap: 5rem;
+}
+
+.prod-content {
+  border: 1px solid rgb(219, 219, 219);
+  width: 69%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.prod-content h1 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.prod-content p {
+  font-size: 1.5rem;
+}
+
+.prod-content:hover {
+  box-shadow: 0px 2px 11px 7px #000;
+}
+
+.prod-content button {
+  background-color: white;
+  margin-top: 0.7rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  padding: 0.2rem 1.5rem;
+  border-radius: 20px;
+}
+
+.prod-content button:hover {
+  color: white;
+  background-color: var(--color-primary);
 }
