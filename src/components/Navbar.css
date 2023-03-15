@@ -27,6 +27,11 @@
   cursor: pointer;
 }
 
+.navbar-logo h1:focus,
+.navbar-logo h1:active {
+  color: rgb(108, 245, 54);
+}
+
 hr {
   width: 105rem;
 }
@@ -50,4 +55,9 @@ hr {
 .navbar-menu li:hover {
   color: var(--color-primary);
   cursor: pointer;
+}
+
+.navbar-menu li:focus,
+.navbar-menu li:active {
+  color: rgb(108, 245, 54);
 }

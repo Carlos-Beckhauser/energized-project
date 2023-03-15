@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../assets/energized.png";
 import prod from "../assets/1.png";
@@ -25,7 +26,7 @@ const AboutUs = () => {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <img src={prod} width="500" alt="Product Image" />
+          <img src={prod} width="500" alt="Product" />
           <p>
             Right here on left we have a sample of our t-shirt.
             <br></br>
@@ -37,7 +38,9 @@ const AboutUs = () => {
             We have other color options.
             <br></br>
             <b>Did you get interested to buy?</b>
-            <button>Click here</button>
+            <Link className="about-btn" to="/products">
+              <button>Click here</button>
+            </Link>
           </p>
         </div>
       </section>

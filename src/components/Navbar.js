@@ -24,7 +24,7 @@ const Navigation = () => {
             <Link className="navbar-links" to="/about-us">
               <li>About us</li>
             </Link>
-            <Link className="navbar-links">
+            <Link className="navbar-links" to="/products">
               <li>Products</li>
             </Link>
           </ul>

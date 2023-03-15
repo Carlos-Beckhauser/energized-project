@@ -40,3 +40,8 @@
 .hero button:hover {
   background-color: var(--color-footer);
 }
+
+.hero button:focus,
+.hero button:active {
+  background-color: rgb(108, 245, 54);
+}

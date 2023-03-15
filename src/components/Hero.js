@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Hero.css";
 
@@ -13,7 +14,9 @@ const Hero = () => {
             <p></p>
             <span>The future has come</span>
           </p>
-          <button>Click here</button>
+          <Link to="/about-us">
+            <button>Click here</button>
+          </Link>
         </div>
       </section>
     </>

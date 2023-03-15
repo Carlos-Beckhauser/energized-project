@@ -23,11 +23,21 @@
   font-size: 1.3rem;
   text-transform: uppercase;
   cursor: pointer;
-  padding: 0.5rem 2rem;
-  margin-top: 2rem;
+  padding: 0.6rem 1.7rem;
+  margin-top: 3rem;
+  text-decoration: none;
+}
+
+.about-btn {
+  text-decoration: none;
 }
 
 .aboutContainer button:hover {
   color: var(--color-primary);
-  box-shadow: 10px 10px 8px #888888;
+}
+
+.aboutContainer button:active {
+  background-color: rgb(108, 245, 54);
+  color: black;
+  box-shadow: 10px 10px 8px #697a1a;
 }
