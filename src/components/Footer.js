@@ -20,7 +20,7 @@ const Footer = () => {
             <p>contact@energized.com</p>
           </div>
           <div className="footer-social">
-            <a href="http://facebook.com" target="_blank">
+            <a href="http://facebook.com" target="_blank" rel="noreferrer">
               <FontAwesomeIcon
                 className="social-icon"
                 icon={faFacebook}
@@ -28,7 +28,7 @@ const Footer = () => {
                 color="rgb(36, 94, 36)"
               />
             </a>
-            <a href="http://instagram.com" target="_blank">
+            <a href="http://instagram.com" target="_blank" rel="noreferrer">
               <FontAwesomeIcon
                 className="social-icon"
                 icon={faInstagram}
@@ -36,7 +36,7 @@ const Footer = () => {
                 color="rgb(36, 94, 36)"
               />
             </a>
-            <a href="http://youtube.com" target="_blank">
+            <a href="http://youtube.com" target="_blank" rel="noreferrer">
               <FontAwesomeIcon
                 className="social-icon"
                 icon={faYoutube}
@@ -47,7 +47,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="dev-logo">
-          <a href="https://github.com/Carlos-Beckhauser" target="_blank">
+          <a
+            href="https://github.com/Carlos-Beckhauser"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h1>CARLOS BECKHAUSER - WEB DEVELOPMENT</h1>
           </a>
         </div>
