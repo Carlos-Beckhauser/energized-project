@@ -1,19 +1,71 @@
+/*Mobile*/
 .aboutContainer {
-  max-width: 1500px;
-  margin: 4rem auto;
+  max-width: unset;
+  margin: unset;
   display: grid;
-  grid-template-columns: 4fr 6fr;
+  grid-template-columns: unset;
+  justify-content: center;
+  justify-items: center;
   align-items: center;
 }
 
-.aboutContainer p {
-  font-size: 1.3rem;
-  text-align: justify;
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .aboutContainer {
+    max-width: 1500px;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    align-items: center;
+  }
 }
 
-.aboutContainer p:nth-of-type(2) {
-  font-size: 1.7rem;
+.aboutContainer img {
+  scale: 0.7;
+}
+
+@media screen and (min-width: 1280px) {
+  .aboutContainer img {
+    scale: unset;
+  }
+}
+
+/*Mobile*/
+.aboutContainer p {
+  font-size: 1.2rem;
   text-align: justify;
+  width: 28ch;
+  margin: -58px;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .aboutContainer p {
+    font-size: 1.3rem;
+    text-align: justify;
+    width: unset;
+    margin: unset;
+  }
+}
+
+/*Mobile*/
+.aboutContainer p:nth-of-type(2) {
+  font-size: 1.3rem;
+  text-align: justify;
+  width: 26ch;
+  margin-bottom: 4rem;
+  margin-top: -50px;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .aboutContainer p:nth-of-type(2) {
+    font-size: 1.7rem;
+    text-align: justify;
+    width: unset;
+    margin-bottom: unset;
+    margin-top: unset;
+  }
 }
 
 .aboutContainer button {
@@ -30,6 +82,16 @@
 
 .about-btn {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .about-btn {
+    text-decoration: none;
+    display: unset;
+    justify-content: unset;
+  }
 }
 
 .aboutContainer button:hover {

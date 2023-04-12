@@ -6,7 +6,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <>
-      <section className="hero-container">
+      <div className="hero-container">
         <div className="hero">
           <p>
             Did you ever imagine conduit your body energy to your devices ?
@@ -18,7 +18,7 @@ const Hero = () => {
             <button>Click here</button>
           </Link>
         </div>
-      </section>
+      </div>
     </>
   );
 };

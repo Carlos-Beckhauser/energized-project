@@ -7,7 +7,7 @@ const Products = ({ prods }) => {
     <main className="prod">
       {prods.map(({ id, image, name, price }) => (
         <div className="prod-content" key={id}>
-          <img src={image} width="300" alt="product" />
+          <img src={image} width="283" alt="product" />
           <h1>{name}</h1>
           <p>CA$ {price},00</p>
           <button>Buy</button>

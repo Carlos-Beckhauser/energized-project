@@ -1,0 +1,44 @@
+.mobmenu {
+  background: #000d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  color: white;
+}
+
+/*mobile*/
+.menu-close {
+  display: grid;
+  justify-items: end;
+  margin-right: 1.3rem;
+  margin-top: 1rem;
+}
+
+.menu-close:focus,
+.menu-close:active {
+  color: rgb(108, 245, 54);
+}
+
+.nav-menu {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 5rem;
+  margin-top: 7rem;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 3rem;
+}
+
+.nav-menu li:focus,
+.nav-menu li:active {
+  color: rgb(108, 245, 54);
+}

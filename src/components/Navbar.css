@@ -1,11 +1,44 @@
-.navbar {
-  margin: 0;
-  padding: 0;
+/*mobile first*/
+.mobile-menu {
   display: grid;
-  width: 100%;
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: repeat(2, 2fr);
   justify-items: end;
   align-items: center;
+  visibility: visible;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+.mobile-logo h2 {
+  font-size: 2.4rem;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.navbar {
+  display: none;
+}
+
+/*Mobile*/
+
+@media screen and (min-width: 1280px) {
+  .navbar {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 8fr;
+    justify-items: end;
+    align-items: center;
+    visibility: unset;
+  }
 }
 
 .navbar-logo {
@@ -60,4 +93,14 @@ hr {
 .navbar-menu li:focus,
 .navbar-menu li:active {
   color: rgb(108, 245, 54);
+}
+
+.nav-line {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .nav-line {
+    display: block;
+  }
 }

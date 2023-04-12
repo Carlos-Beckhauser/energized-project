@@ -1,8 +1,12 @@
-.hero-container {
-  max-width: 1400px;
-  margin: 0 auto;
+/*desktop*/
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
 
+/*mobile*/
 .hero {
   height: 63vh;
   position: relative;
@@ -12,11 +16,31 @@
   align-content: center;
   font-size: 1.5rem;
   margin-bottom: 5rem;
+  width: none;
 }
 
+/*desktop*/
+@media screen and (min-width: 1280px) {
+  .hero {
+    width: unset;
+  }
+}
+
+/*mobile*/
 .hero p {
   text-align: justify;
-  width: 50ch;
+  width: none;
+  font-size: 1.3rem;
+  margin: 1rem 2rem;
+}
+
+/*desktop*/
+@media screen and (min-width: 1280px) {
+  .hero p {
+    text-align: justify;
+    width: 50ch;
+    font-size: 1.5rem;
+  }
 }
 
 .hero span {
@@ -44,4 +68,6 @@
 .hero button:focus,
 .hero button:active {
   background-color: rgb(108, 245, 54);
+  color: black;
+  box-shadow: 10px 10px 8px #697a1a;
 }

@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="dev-logo">
           <a
-            href="https://github.com/Carlos-Beckhauser"
+            href="https://beckhauserportfolio.com/"
             target="_blank"
             rel="noreferrer"
           >

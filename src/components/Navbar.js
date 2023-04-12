@@ -4,10 +4,21 @@ import "./Navbar.css";
 
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Navigation = () => {
+const Navigation = ({ handleClick }) => {
   return (
     <>
+      <div className="mobile-menu">
+        <div className="mobile-logo">
+          <h2>ENERGIZED</h2>
+        </div>
+        <div className="mobile-icon">
+          <FontAwesomeIcon icon={faBars} size="3x" onClick={handleClick} />
+        </div>
+      </div>
+
       <nav className="navbar">
         <div className="navbar-logo">
           <Link className="navbar-logo" to="/">
@@ -30,7 +41,7 @@ const Navigation = () => {
           </ul>
         </div>
       </nav>
-      <hr></hr>
+      <hr className="nav-line"></hr>
     </>
   );
 };
